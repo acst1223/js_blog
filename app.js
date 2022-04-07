@@ -33,6 +33,6 @@ app.post('/addPost', (req, res) => {
 });
 
 // Listen
-app.listen(3000, () => {
-    console.log('Server listing on 3000');
+app.listen(80, () => {
+    console.log('Server listing on 80');
 })
